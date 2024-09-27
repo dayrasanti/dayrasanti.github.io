@@ -3,11 +3,10 @@ body {
   font-family: "Bree Serif", serif;
   font-weight: 700;
   font-style: normal;
-  margin: 0;
-  padding: 0px;
-  
-
+  margin: 6%;
+  background-color: rgb(86, 86, 86);
 }
+
 p{
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
@@ -58,6 +57,7 @@ nav a {
   font-weight: bold;
   padding: 10px 15px;
 }
+
 nav a:hover{
   background-color: #ddd;
   color: black;
@@ -194,14 +194,14 @@ html { scroll-behavior: smooth; }
 }
 
 .slides {
-position: relative;
-display:flex;
-overflow:hidden;
+  position: relative;
+  display:flex;
+  overflow:hidden;
   height: 100%;
 }
 
 .slide {
-width: 80%; /* Ajusta al ancho de la ventana */
+  width: 80%; /* Ajusta al ancho de la ventana */
   height: 60%; /* Ajusta a la altura de la wrapper */
   flex-shrink: 0;
   animation-name: slide;
@@ -276,7 +276,40 @@ h2, h3 {
 
 p {
   color: black;
+
+
 }
+
+.titulos{
+  color: darksalmon;
+ }
+
+.parrafos{
+  color: cadetblue;
+ }
+
+.cuerpo{
+  background-color: rgb(86, 86, 86);
+}
+
+.seccion1
+
+/*
+.plato{
+  color: #484848;
+  text-align: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 50vh;
+  font-size: 2.5em;
+  flex: 1;
+
+}
+*/
 
 
 footer {
@@ -407,10 +440,12 @@ footer {
     top: 70px;
     left: 0;
   }
+ 
   nav ul li {
     text-align: center;
     width: 100%;
   }
+  
   
   nav ul li a {
     display: block;
@@ -429,3 +464,11 @@ footer {
 
 }
 
+.tarjeta1{
+  display: flex;
+}
+
+.tarjeta1 p{
+  margin: 50px;
+  padding-top: 50px;
+}
